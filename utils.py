@@ -33,7 +33,7 @@ def splash_get(url):
 
 
 def tidy_img(md):
-    img_path = re.findall(r"(http.*?jpg|jpeg|png)", md)
+    img_path = re.findall('http.*?jpe?g|http.*?png', md)
 
     for path in img_path:
         r = requests.get(path)
@@ -112,9 +112,9 @@ def path2base64(path):
 
 
 def st_markdown(md):
-    img_path = re.findall(r']\(\./(.*?)\)', md)
+    img_path = re.findall('\./.*?jpe?g|\./.*?png', md)
 
     for path in img_path:
-        md = md.replace('./'+path, 'data:image/png;base64,'+path2base64(path))
+        md = md.replace(path, 'data:image/png;base64,'+path2base64(path))
 
     st.markdown(md)
