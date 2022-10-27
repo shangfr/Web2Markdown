@@ -114,13 +114,15 @@ p {
   padding-bottom: 1px !important;
   /*字间距*/
   letter-spacing: 0px;
-  font-size: 16px;
+  font-size: 15px;
   /*词间距*/
   word-spacing: 0px;
   /*首行缩进*/
   text-indent: 0em;
   /*文本对齐 */
   text-align: justify;
+  /* 行距 */
+  line-height: 1.75;
   /* 空白字符的显示 */
   white-space: pre-wrap !important;
   /* 长度超过一行的单词换行方法  */

@@ -1,33 +1,26 @@
+- 首页
 
+- 工作案例
 
-打造全国地方科协综合改革示范区
+- 十年之路
 
+- 视频回顾
 
+- 媒体聚焦
 
-
-
- if(document.documentElement.clientWidth<800){
- document.documentElement.style.fontSize = document.documentElement.clientWidth / 720\*100 + 'px';
- }
- 
-
-- [首页](http://yxgzal.cast.org.cn/)
-
-- [工作案例](http://yxgzal.cast.org.cn/gongzuoanli/index.html)
-- [十年之路](http://yxgzal.cast.org.cn/shinianzhilu/index.html)
-- [视频回顾](http://yxgzal.cast.org.cn/shipinhuigu/index.html)
-- [媒体聚焦](http://yxgzal.cast.org.cn/meitijujiao/index.html)
-- [案例总览](http://yxgzal.cast.org.cn/anlizonglan/index.html)
+- 案例总览
 
 
+
  td{padding-left: 5px;}
 
 |  |  |
-| --- | --- |
-| [首页](http://yxgzal.cast.org.cn/index.html) |  > [工作案例](http://yxgzal.cast.org.cn/gongzuoanli/index.html) |
 
-打造全国地方科协综合改革示范区
-===============
+| --- | --- |
+
+| 首页 |  > 工作案例 |
+
+# 打造全国地方科协综合改革示范区
 
 发布时间：2022-10-08    
 
@@ -39,7 +32,7 @@
 
 实际上，这只是重庆市科协把深化科技社团改革作为打造全国地方科协综合改革示范区“牛鼻子”来抓的一个缩影。目前，重庆市级科技社团已有174家，未来该市将围绕支柱产业和战略性新兴产业，发起一批新科技社团，推动改革向纵深拓展、向基层延伸，为重庆高质量发展汇聚科技力量，为全国地方科协深化改革提供重庆样本。
 
-[**![](http://yxgzal.cast.org.cn/picture/0/s_80145596fbf64a83a16267c264e6549d.jpg)**](http://yxgzal.cast.org.cn/picture/0/80145596fbf64a83a16267c264e6549d.jpg)
+**![](./img/fdf4b850d8ecd4b4a5b0a8c477b287d5.jpeg)**
 
 **重庆市科协召开推进示范区建设工作会议**
 
@@ -67,7 +60,7 @@
 
 今年5月，重庆市科协、市民政局印发《关于进一步加强科技社团建设和管理的意见》，推动科技社团提升影响力、增强贡献度，助力重庆建设具有全国影响力的科技创新中心和重要人才高地。
 
-**[![](http://yxgzal.cast.org.cn/picture/0/s_e405f847b1e448338838c370b599d286.jpg)](http://yxgzal.cast.org.cn/picture/0/e405f847b1e448338838c370b599d286.jpg)**
+**![](./img/1a31086f90d34fd5597522a22233485c.jpeg)**
 
 **重庆科技融媒体中心揭牌仪式在科协大厦举行**
 
@@ -93,8 +86,8 @@
 
 地址：北京市海淀区复兴路3号 邮编：100863
 
-![](http://yxgzal.cast.org.cn/picture/0/9a05bd5ae5324ecfa24e1abc8a6279f3.jpg "jinri.jpg")今日科协
-![](http://yxgzal.cast.org.cn/picture/0/541d6c3a9d7e4a66b4233b351769f920.jpg "gaige.jpg")科协改革进行时
+![](./img/50309a93e441f3a520aec4ef93234fdd.html; charset=iso-8859-1)今日科协
 
-[Produced By 大汉网络 大汉版通发布系统](http://www.hanweb.com)
+![](./img/cb5b0c974e690cb4d79341c76299d857.html; charset=iso-8859-1)科协改革进行时
 
+Produced By 大汉网络 大汉版通发布系统

@@ -1,0 +1,5 @@
+.spyproject/*
+img/*
+__pycache__/*
+.pylint.d/*
+*.bak
