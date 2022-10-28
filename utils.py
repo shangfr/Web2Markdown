@@ -64,7 +64,7 @@ def get_html(url, render_service=False):
 
         soup = BeautifulSoup(html_d, 'lxml')
 
-        html_d = str(soup.body)
+        html_d = str(soup.h1.parent)
         if html_d:
             md_d = markdownify(
                 html_d, strip=['a'], heading_style='ATX').strip()
@@ -116,5 +116,8 @@ def st_markdown(md):
 
     for path in img_path:
         md = md.replace(path, 'data:image/png;base64,'+path2base64(path))
+    container = st.container()
 
-    st.markdown(md)
+    tab1, tab2 = container.tabs(["Show", "Analysis"])
+    with tab1:
+        st.markdown(md)

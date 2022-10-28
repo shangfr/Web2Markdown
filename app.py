@@ -6,7 +6,8 @@ Created on Mon Oct 24 17:56:50 2022
 """
 import streamlit as st
 import streamlit.components.v1 as components
-from utils import get_html,word2md,st_markdown
+import pyperclip
+from utils import get_html, word2md, st_markdown
 
 
 st.set_page_config(
@@ -55,7 +56,7 @@ def local_css(file_name):
 
 local_css("./css/mystyle.css")
 
-col1, col2, col3, col4 = st.columns([5,2,1,1])
+col1, col2, col3, col4 = st.columns([5, 2, 1, 1])
 uploaded_file = st.file_uploader("Choose a file", on_change=change_callback)
 if uploaded_file is not None:
     md_d = word2md(uploaded_file)
@@ -64,9 +65,9 @@ else:
 
     url_p = 'http://yxgzal.cast.org.cn/art/2022/10/8/art_1751_199004.html'
     url = col1.text_input('输入网址：', url_p, on_change=change_callback)
-    col4.info('')
-    render_service = col4.checkbox('渲染服务', on_change=change_callback)
     
+    render_service = col4.checkbox('渲染服务', on_change=change_callback)
+
     md_d = get_html(url, render_service)
 
 if 'key02' in st.session_state:
@@ -74,6 +75,9 @@ if 'key02' in st.session_state:
 else:
     md_doc = md_d
 
+if col4.button('复制'):
+    pyperclip.copy(md_doc)
+    
 n0 = md_doc.count('\n')
 n1 = int(len(md_doc)/20)
 n01 = max(n0, n1)
@@ -97,11 +101,11 @@ elif tool == tool_opt[1]:
 
     col01, col02 = st.columns(2)
     with col01:
-        st.header("Markdown编辑")
+        st.info("Markdown编辑")
         md_doc_e = st.text_area('', md_doc, height=n01*23,
                                 key='key01', on_change=text_callback)
     with col02:
-        st.header("Markdown渲染")
+        st.error("Markdown渲染")
         st_markdown(md_doc_e)
     save_file("./output/test.md", md_doc_e)
 
